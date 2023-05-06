@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+
+bold {
+  font-weight: bold;
+}
+
+.title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.column-name{
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right:150px;
+}
+
+.booktitle{
+  display: flex;
+  width: 200px;
+  margin: 10px;
+}
+.bookbody{
+  display: flex;
+  width: 300px;
+  margin: 10px;
+}
+.bookshow{
+  display: flex;
+  width: 40px;
+  margin: 10px;
+}
+.bookedit{
+  display: flex;
+  width: 40px;
+  margin: 10px;
+}
+
+.bookdestroy{
+  display: flex;
+  width: 40px;
+  margin: 10px;
+}
+
+body{
+  margin: 33px;
+}
+
+column-name-list{
+  display: flex;
+}
+
+table{
+  display: flex;
+  flex-flow: column;
+}
+
+
+
+tr{
+  display: flex;
+  margin-left: 20px;
+}
+
+show{
+  display: flex;
+  margin-top: 50px;
+}
+
+.show{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}

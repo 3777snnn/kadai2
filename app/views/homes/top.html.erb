@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SampleAppDemo</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h1>ようこそBookersへ！</h1>
+    <h4><bold>Bookers</bold>では、さまざまな書籍に関するあなたの意見や</h4>
+    <h4>印象を共有し交換することができます</h4>
+    <%= link_to "start","/books" %>
+  </body>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<div>
+  <%= flash[:notice] %>
+</div>
+
+<html>
+  <head>
+    <title>SampleAppDemo</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h5 class="show"><bold>Title: </bold><p><%= @book.title %></p></h5>
+    <h5 class="show"><bold>Body: </bold><p><%= @book.body %></p></h5>
+    <show>
+    <%=link_to "Edit", edit_book_path(@book.id) %>
+    <h4>/</h4>
+    <%= link_to "Back","/books" %>
+    </show>
+  </body>
